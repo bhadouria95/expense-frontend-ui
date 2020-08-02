@@ -45,6 +45,7 @@ class Expenses extends Component {
             },
             body: JSON.stringify(item)
         } );
+
         event.preventDefault();
         this.props.history.push('/expenses');
     }
@@ -154,7 +155,7 @@ class Expenses extends Component {
                     </Form>
                 </Container>
 
-                {''}
+                {' '}
                 <Container>
                     <h3>Expense List</h3>
                     <Table className="mt-4">
